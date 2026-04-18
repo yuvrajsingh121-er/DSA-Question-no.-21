@@ -13,7 +13,7 @@ public class Array {
                 start = mid +1;
             }
             if(array[mid] > key){
-                end = mid + 1;
+                end = mid - 1;
             }
          }
          return -1;
